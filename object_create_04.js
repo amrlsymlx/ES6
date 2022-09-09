@@ -1,7 +1,5 @@
-const personPrototype ={
-
-    greeting : function(){
-
+const personPrototype = {
+    greeting: function(){
         return `Hello ${this.firstName} ${this.lastName}`
     }
 };
@@ -14,11 +12,10 @@ user.lastName = 'Smith';
 console.log(user);
 console.log(user.greeting());
 
-cost newUser = Object.create (personPrototype,{
-    firstName: {value:'Sara'},
-    lastName: {value'Smith}
+const newUser = Object.create(personPrototype, {
+    firstName: {value: 'Kim'},
+    lastName: {value: 'Smith'}
 });
 
 console.log(newUser);
-
-// review this
+console.log(newUser.greeting());
