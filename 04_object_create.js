@@ -20,3 +20,5 @@ const newUser = Object.create(personPrototype,{
 
 console.log(newUser);
 console.log(newUser.greeting());
+
+console.log(personPrototype);
