@@ -1,4 +1,4 @@
-// ------constructor function --------------------
+// ------prototype --------------------
 
 function User(email, name) {
     this.email = email;
