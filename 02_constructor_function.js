@@ -19,13 +19,14 @@
 // console.log(student_1);
 
 
-function Student(firstName,lastName,age){
+function Student(firstName,lastName,age,id){
     this.firstName = firstName;
     this.lastName =lastName;
     this.age= age;
+    this.ID=id;
 };
 
-const student_1 = new Student('sara','smith',16);
-const student_2 = new Student('kim','possible',17);
+const student_1 = new Student('sara','smith',16, 1234);
+const student_2 = new Student('kim','possible',17,5678);
 console.log(student_1);
 console.log(student_2);
