@@ -26,4 +26,6 @@ function Student(firstName,lastName,age){
 };
 
 const student_1 = new Student('sara','smith',16);
+const student_2 = new Student('kim','possible',17);
 console.log(student_1);
+console.log(student_2);
