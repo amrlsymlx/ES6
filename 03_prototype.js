@@ -7,12 +7,12 @@
 
 // console.log(user);
 
-//Prototype : its an object which is associated with every object and 
-//functions in js by default.
+/*Prototype : its an object which is associated with every object and 
+functions in js by default.*/
 
-//The prototype object is a special type of object with addtional propertis
-//and methods , which will be shared across all the object instances 
-//of its constructor function
+/*The prototype object is a special type of object with addtional properties
+and methods , which will be shared across all the object instances 
+of its constructor function*/
 
 //constructor function 
 
