@@ -21,3 +21,12 @@
 const greet = (user) => `Welcome to AAA ${user}`;
 
 console.log(greet('sara'));
+
+
+let sum = 2;
+
+var hello = function () {}
+
+var bye = ()=> console.log(sum) ;
+
+bye()
